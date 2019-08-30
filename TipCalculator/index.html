@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-danger">Tip Calculator</h1>
+
+        <!-- Input Bill amount -->
+        <section class="box">
+            <p>How much was your bill?</p>
+            <input type="text" placeholder="Bill Amount">
+        </section>
+
+        <!-- Service Dropdown -->
+        <section class="box">
+            <p>How was the service?</p>
+            <select class="" name="rating" id="rating">
+                <option value="0">0% - Horrible</option>
+                <option value="10">10% - It was OK</option>
+                <option value="20">20% - Satisfactory</option>
+                <option value="30">30% - Outstanding</option>
+            </select>
+        </section>
+
+        <!-- Number of people -->
+        <section class="box">
+            <p>How many people are you splitting the bill with?</p>
+            <input type="number" placeholder="Number of People">
+        </section>
+
+        <button class="box" type="submit">Calculate</button>
+
+        <!-- Result -->
+        <section></section>
+    </div>
+</body>
+</html>

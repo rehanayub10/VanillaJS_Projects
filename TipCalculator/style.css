@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+   margin-top: 2rem;
+}
+
+body {
+    background-color: #800000;
+}
+
+.container {
+    margin: 100px auto;
+    width: 360px;
+    height: 525px;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 0;
+}
+  
