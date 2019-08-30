@@ -15,7 +15,7 @@
         <!-- Input Bill amount -->
         <section class="box">
             <p>How much was your bill?</p>
-            <input type="text" placeholder="Bill Amount">
+            <input type="text" placeholder="Bill Amount" id="amount" name="amount">
         </section>
 
         <!-- Service Dropdown -->
@@ -32,13 +32,15 @@
         <!-- Number of people -->
         <section class="box">
             <p>How many people are you splitting the bill with?</p>
-            <input type="number" placeholder="Number of People">
+            <input type="number" placeholder="Number of People" id="numPeople">
         </section>
 
-        <button class="box" type="submit">Calculate</button>
+        <button class="box" type="button" id="button">Calculate</button>
 
         <!-- Result -->
-        <section></section>
+        <section class="result"></section>
+
+        <script src="app.js"></script>
     </div>
 </body>
 </html>
